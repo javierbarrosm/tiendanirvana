@@ -160,7 +160,6 @@
 
     /* formato al iframe */
     iframe{
-        margin:auto;
         display:block;
     }
 
@@ -188,7 +187,7 @@
     .content {
         background:white;
         width: 100%;
-        overflow:auto;
+        overflow-y:scroll;
         flex-grow: 2;
         justify-content: center;
       }

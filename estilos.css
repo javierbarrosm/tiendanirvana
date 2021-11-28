@@ -160,7 +160,6 @@ h4 {
 
 /* formato al iframe */
 iframe {
-  margin: auto;
   display: block;
 }
 
@@ -193,7 +192,7 @@ iframe {
 .content {
   background: white;
   width: 100%;
-  overflow: auto;
+  overflow-y: scroll;
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
