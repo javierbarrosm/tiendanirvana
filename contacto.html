@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toma contacto con nosotros</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Ingreso de meta -->
+    <meta name="description" content="Ven a conocernos o toma contacto con nosotros.">
+    <meta name="keywords" content="contacto, articulos fitness, articulos deportivos">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo1.png" alt="Logo tienda" height="100" width="300"></a>
+    </header>
+    <!--Barra de navegación-->
+    <div class="btn-group d-flex">
+        <button type="button" class="btn-group btn-success btn-lg"><a href="index.html">Home</a> </button>
+        <button type= "button" class="btn-group btn-success btn-lg"><a href="nosotros.html"> Nosotros</a> </button>
+        <div class="btn-group">
+            <button type="button" class="btn-group btn-success btn-lg dropdown-toggle" data-toggle="dropdown">
+                Productos
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="productos.html">Ver todo</a>
+                <a class="dropdown-item" href="peso15kg.html">Pesos</a>
+                <a class="dropdown-item" href="peso15kg.html">Barras</a>
+                <a class="dropdown-item" href="peso15kg.html">Cardio</a>
+            </div>
+        </div>
+        <button type="button" class="btn-group btn-success btn-lg"><a href="contacto.html">Contacto</a> </button>
+        
+    </div>
+
+    <!-- Página principal-->
+    <div class="contenedorContentSidebar">
+
+        <!-- Inicio SideBar -->
+        <div class="sidebar">
+            <ol>
+                <li>Categorias</li>
+                <ol type="i">
+                    <li>Pesos</li>
+                    <ul>
+                        <li>Olimpicos</li>
+                        <li>Preolimpicos</li>
+                    </ul>
+                    <li>Barras</li>
+                    <ul>
+                        <li>Olimpicas</li>
+                        <li>Preolimpicas</li>
+                    </ul>
+                    <li>Cardio</li>
+                </ol>
+                <a href="productos.html"><li>Productos (Ver todo)</li></a>
+                <li>Ver carrito</li>
+                <a href="index.html"><li>Home</li></a>
+                <a href="nosotros.html"><li>Nosotros</li></a>
+                <a href="contacto.html"><li>Contacto</li></a>
+            </ol>
+        </div>
+        <!-- FIN SideBar -->
+        <!-- Inicio princpal -->
+        <div class="content">
+            <h1>Contacto</h1>
+            <h2>Envianos tus sugerencias/preguntas</h2>
+            <p>Ponte en contacto con nosotros ya sea para preguntarnos cosas, enviar tus sugerencias u otras cosas!</p>
+            <div class="container contact-form">
+                <form method="post">
+                   <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="txtName" class="form-control" placeholder="Tu Nombre *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="txtEmail" class="form-control" placeholder="Tu correo *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="txtPhone" class="form-control" placeholder="Tu número telefonico *" value="" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea name="txtMsg" class="form-control" placeholder="Dejanos tu mensaje! *" style="width: 100%; height: 150px;"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="btnSubmit" class="btnContact" value="Enviar mensaje" />
+                                <input type="reset" name="btnReset" class="btnReset" value="Borrar todo" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+    </div>
+            <!-- 
+        
+            <table width= 70%>
+                <tr>
+                    <th>
+                        <form action="enviar.php" method = "get" enctype="application/x-www-form-urlencoded">
+                        Nombre <input type="text" required> <br>
+                        Mail <input type="email" required> <br>
+                        Edad <input type="number"> <br>
+                        Celular <input type="text"><br>
+                        !--Texto--
+                        Comentarios <br>
+                        <textarea name="areatexto" id="" cols="30" rows="10" placeholder="Ingresa tu comentario"></textarea> <br>
+                
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar todo">
+                </form>
+                    </th>
+                </tr>
+            </table>
+            <h2>Visitanos</h2>
+            <p>Puedes venir a visitanos a nuestra tienda ubicada en Santiago de Chile</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213055.383566832!2d-70.73904566331696!3d-33.44955746843456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x8475d53c400f0931!2sSantiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1633925393265!5m2!1ses-419!2scl" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card text-center">
+        <div class=card-header>
+            Creado por: Javier Barros
+        </div>
+    </div>
+
+</body>
+
+</html>
